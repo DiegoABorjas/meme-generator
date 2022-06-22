@@ -9,12 +9,17 @@ body {
     color: #FFFFFF;
 }
 
+main {
+    padding: 36px;
+}
+
 .header {
     background-color: #5865f2;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 65px;
+    padding: 20px;
 }
 
 .title-logo{
@@ -40,4 +45,33 @@ body {
 .header-img {
     height: 45px;
     background: none;
+}
+
+.form {
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    gap: 17px;
+}
+
+.form-input {
+    font-family: 'Karla', sans-serif;
+    border-radius: 5px;
+    border: 1px solid #D5D4D8;
+    text-indent: 5px;
+    color: #D5D4D8;
+}
+
+.form-button {
+    grid-column:  1 / -1;
+    font-family: 'Karla', sans-serif;
+    border-radius: 5px;
+    background: #5865f2;
+    color: #D5D4D8;
+    border: none;
+    cursor: pointer;
+}
+
+.meme-image {
+    width: 100%;
+    /* align-self: center; */
 }
